@@ -1,13 +1,13 @@
 class RSpecGreeter
   def greet
-    "Hello RSpec!"
+    'Hello RSpec!'
   end
 end
 
-describe "RSpec Greeter" do
+describe 'RSpec Greeter' do
   it "should say 'Hello RSpec!' when greet is called" do
     greeter = RSpecGreeter.new
     greeting = greeter.greet
-    expect(greeting).to eq "Hello RSpec!"
+    expect(greeting).to eq 'Hello RSpec!'
   end
 end

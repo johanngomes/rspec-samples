@@ -1,6 +1,6 @@
 class CucumberGreeter
   def greet
-    "Hello Cucumber!"
+    'Hello Cucumber!'
   end
 end
 
